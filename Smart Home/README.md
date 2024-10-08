@@ -106,6 +106,7 @@ This project develops a smart home system that adjusts lighting, fan speed, and 
 ```c
 void ADC_init(void);           // Initializes the ADC
 uint16 ADC_readChannel(uint8 channel_num);   // Reads analog data from a channel
+```
 
 ### GPIO Driver
 - The GPIO driver controls the sensors, actuators, and LEDs. It configures input and output pins for interfacing with the LDR, LM35, flame sensor, LEDs, motor, and buzzer.
@@ -115,6 +116,7 @@ void GPIO_init(void);  // Initializes GPIO pins
 void GPIO_setPin(uint8 port, uint8 pin);  // Sets a pin as output
 void GPIO_clearPin(uint8 port, uint8 pin);  // Clears a pin to logic low
 uint8 GPIO_readPin(uint8 port, uint8 pin);  // Reads input from a pin
+```
 
 ### PWM Driver
 - The PWM driver controls the speed of the fan using Timer0 in PWM mode. The fan speed is adjusted based on the duty cycle, which is calculated using the temperature readings from the LM35 sensor
@@ -122,6 +124,7 @@ uint8 GPIO_readPin(uint8 port, uint8 pin);  // Reads input from a pin
 ```c
 void PWM_Timer0_Start(uint8 duty_cycle);  // Starts the PWM with the given duty cycle
 void PWM_Timer0_Stop(void);  // Stops the PWM signal
+```
 
 ### LCD Driver
 - The LCD driver provides an interface for displaying real-time information such as temperature, light intensity, and alerts. The system uses a 16x2 LCD in 8-bit mode.
@@ -131,18 +134,21 @@ void LCD_init(void);  // Initializes the LCD
 void LCD_displayString(const char *str);  // Displays a string on the LCD
 void LCD_moveCursor(uint8 row, uint8 col);  // Moves the cursor to the specified row and column
 void LCD_clear(void);  // Clears the display
+```
 
 ### Temperature Sensor Driver (LM35)
 - The temperature sensor driver reads the temperature value using the ADC and converts it into degrees Celsius. The temperature is then used to control the fan speed.
 
 ```c
 uint16 LM35_readTemperature(void);  // Reads the temperature from the LM35 sensor
+```
 
 ### Flame Sensor Driver
 -The flame sensor detects the presence of fire. If fire is detected, the system raises an alert by activating a buzzer and displaying a warning message on the LCD.
 
 ```c
 uint8 FlameSensor_isFireDetected(void);  // Checks if fire is detected by the flame sensor
+```
 
 ## 📝 Project Setup
 - Hardware: Connect the ATmega32 to the LM35, LDR, flame sensor, LEDs, motor, and LCD as per the component configuration.
