@@ -2,7 +2,7 @@
  * LED.h
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 
 #ifndef HAL_LED_LED_H_

@@ -2,7 +2,7 @@
  * BUZZER.h
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 
 #ifndef HAL_BUZZER_BUZZER_H_

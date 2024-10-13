@@ -6,7 +6,7 @@
  *
  * Description: Header file for the LCD driver
  *
- * Author: Jana Wael 
+ * Author: Jana Wael
  *
  *******************************************************************************/
 

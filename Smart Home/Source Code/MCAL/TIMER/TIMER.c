@@ -2,7 +2,7 @@
  * TIMER.c
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 #include "../../LIB/common_macros.h"
 #include "../../LIB/std_types.h"

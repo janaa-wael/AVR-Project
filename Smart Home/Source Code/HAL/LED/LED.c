@@ -2,7 +2,7 @@
  * LED.c
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 #include "LED.h"
 #include "../../LIB/std_types.h"

@@ -2,7 +2,7 @@
  * LDR.h
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 
 #ifndef HAL_LDR_LDR_H_

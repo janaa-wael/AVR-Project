@@ -2,7 +2,7 @@
  * FLAME_SENSOR.h
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 
 #ifndef HAL_FLAME_SENSOR_FLAME_SENSOR_H_

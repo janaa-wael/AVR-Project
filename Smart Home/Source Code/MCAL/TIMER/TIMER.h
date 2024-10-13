@@ -2,7 +2,7 @@
  * TIMER.h
  *
  *  Created on: Oct 6, 2024
- *      Author: Jana Wael
+ *      Author: hp
  */
 
 #ifndef MCAL_TIMER_TIMER_H_
