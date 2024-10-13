@@ -2,7 +2,7 @@
  * main.c
  *
  *  Created on: Oct 6, 2024
- *      Author: hp
+ *      Author: Jana Wael
  */
 
 #include "../HAL/LCD/lcd.h"

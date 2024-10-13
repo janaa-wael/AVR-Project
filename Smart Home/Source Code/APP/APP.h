@@ -2,7 +2,7 @@
  * APP.h
  *
  *  Created on: Oct 6, 2024
- *      Author: hp
+ *      Author: Jana Wael
  */
 
 #ifndef APP_APP_H_

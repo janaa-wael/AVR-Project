@@ -2,7 +2,7 @@
  * LDR.c
  *
  *  Created on: Oct 6, 2024
- *      Author: hp
+ *      Author: Jana Wael
  */
 #include "LDR.h"
 #include "../../MCAL/ADC/adc.h"

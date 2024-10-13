@@ -2,7 +2,7 @@
  * motor.h
  *
  *  Created on: Oct 6, 2024
- *      Author: hp
+ *      Author: Jana Wael
  */
 
 #ifndef HAL_MOTOR_MOTOR_H_
